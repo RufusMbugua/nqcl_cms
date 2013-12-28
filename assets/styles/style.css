@@ -1,0 +1,153 @@
+@font-face {
+	font-family: Arsenal-Regular;
+	src: url('fonts/Arsenal-Regular.otf');
+}
+@font-face {
+	font-family: Arsenal-Bold;
+	src: url('fonts/Arsenal-Bold.otf');
+}
+
+body {
+	font-size: 1.7em;
+	background: #fff;
+}
+
+#contentView {
+	padding: 0 15% 2% 15%;
+}
+
+#header-aside {
+	float: right;
+	padding: 1%;
+}
+#header-aside > .user a{
+color:#666;
+}
+#header-aside > .user a:hover{
+color:#3eaf49;
+}
+#footer {
+	color: white;
+	width: 100%;
+	padding: 1% 15% 0.1% 15%;
+	background: #3eaf49;
+}
+#myCollapse {
+	overflow: hidden;
+}
+#logo {
+
+	border-bottom: 2px solid #aaa;
+}
+#logo-text {
+	margin-top: 10px;
+}
+#logo > img, #logo > #logo-text, #logo > #date {
+	display: inline-block;
+}
+#logo > #logo-text > p {
+	font-size: 0.8em;
+	display: block;
+	margin-bottom: 2px;
+}
+#header .navbar-default {
+	padding: 1% 15% 0.1% 15%;
+	background: #F0F0F0;
+	border: none;
+	width: 100%;
+	padding: 15 margin : auto;
+	border-bottom: 2px solid #3eaf49;
+	border-radius: 0;
+}
+#content_parent {
+	padding-top: 6%;
+}
+.content h2 {
+	font-size: 2.5em;
+}
+
+.col-md-4 h3 {
+	font-size: 1.5em;
+}
+h4 {
+	font-weight: bold;
+}
+ul {
+	margin: 0;
+	padding-left: 10px;
+}
+ul li {
+	list-style: none;
+}
+ul.list li {
+	list-style: circle;
+}
+i {
+	width: 10%;
+	font-size: 1.3em;
+	padding-right: 10px;
+}
+.myLink {
+	margin-top: 10px;
+	padding: 5px 14px 5px 14px !important;
+	margin-right: 10px;
+}
+ul.nav.navbar-nav li.active a, ul.nav.navbar-nav li.active a:hover, ul.nav.navbar-nav li a:hover {
+	background: #3eaf49;
+	color: white;
+}
+span.input-group-addon {
+	padding: 0 !important;
+	height: auto !important;
+}
+button i {
+	margin-right: 10px;
+}
+.btn, input {
+	font-family: "Helvetica";
+}
+section.active {
+	box-shadow: 0 -0.5px 3px 0.5px #000;
+}
+#current_page {
+	width: 40%;
+	display: none;
+	padding: 1%;
+	border-bottom: 3px solid #3eaf49;
+}
+.myButton {
+	background: #3eaf49 !important;
+	border-color: #3eaf49;
+}
+
+/**
+ * 	Rows
+ */
+
+/**
+ *Bootstrap Overrides
+ */
+.myPills > li.active > a, .myPills > li.active > a:hover, .myPills > li.active > a:focus {
+	color: #ffffff;
+	background-color: #3eaf49 !important;
+}
+
+.myPills > li > a {
+
+	color: #3eaf49;
+}
+.navbar-collapse {
+	padding: 0 !important;
+}
+/**
+ *Articles
+ */
+.article {
+	background: #f0f0f0;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #aaa;
+	padding: 1%;
+}
+.article-inner {
+
+}
